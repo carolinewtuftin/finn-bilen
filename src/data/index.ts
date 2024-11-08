@@ -382,6 +382,8 @@ const electricVehicles: Vehicles[] = [
     brand: "MERCEDES-BENZ",
   },
   { registrationNumber: "EF48257", registrationYear: "2023", brand: "TESLA" },
+];
+const fossilVehicles: Vehicles[] = [
   {
     registrationNumber: "EL59273",
     registrationYear: "2015",
@@ -500,4 +502,4 @@ const electricVehicles: Vehicles[] = [
   { registrationNumber: "PP91533", registrationYear: "2010", brand: "FIAT" },
 ];
 
-export const cars: Vehicles[] = [...electricVehicles];
+export const cars: Vehicles[] = [...electricVehicles, ...fossilVehicles];
